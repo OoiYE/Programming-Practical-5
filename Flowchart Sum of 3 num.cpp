@@ -10,8 +10,7 @@ int main() {
 	cout << "Please input num c: " << endl;
 	cin >> num_c;
 
-	int sum;
-	sum = num_a + num_b + num_c;
+	int sum = num_a + num_b + num_c;
 	cout << "The sum of 3 numbers is: " << sum;
 	
 	return 0;
